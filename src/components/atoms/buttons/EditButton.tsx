@@ -17,7 +17,7 @@ const EditButton = ({onPress}: EditButtonProps) => {
 const styles = StyleSheet.create({
   buttonContainer: {
     backgroundColor: 'gray',
-    padding: 5,
+    padding: 1,
     borderRadius: 5,
   },
 });
