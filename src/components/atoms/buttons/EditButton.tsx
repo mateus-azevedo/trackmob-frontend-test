@@ -16,6 +16,8 @@ const EditButton = ({onPress}: EditButtonProps) => {
 
 const styles = StyleSheet.create({
   buttonContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
     backgroundColor: 'gray',
     padding: 1,
     borderRadius: 5,

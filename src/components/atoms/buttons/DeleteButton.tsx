@@ -16,6 +16,8 @@ const DeleteButton = ({onPress}: DeleteButtonProps) => {
 
 const styles = StyleSheet.create({
   buttonContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
     backgroundColor: 'gray',
     paddingHorizontal: 4,
     borderRadius: 5,
