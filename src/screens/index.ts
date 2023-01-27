@@ -1,3 +1,4 @@
+import EditProduct from './EditProduct';
 import Home from './Home';
 
-export {Home};
+export {EditProduct, Home};
