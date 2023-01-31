@@ -2,12 +2,12 @@
 import React from 'react';
 import {View, Text} from 'react-native';
 
-const EditProduct = () => {
+const EditProductScreen = () => {
   return (
     <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      <Text style={{fontSize: 30}}>Tela EditProduct</Text>
+      <Text style={{fontSize: 30}}>Tela EditProductScreen</Text>
     </View>
   );
 };
 
-export default EditProduct;
+export default EditProductScreen;
