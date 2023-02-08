@@ -30,6 +30,7 @@ module.exports = {
         },
       },
     ],
+    'linebreak-style': ['error', 'unix'],
   },
   settings: {
     react: {
