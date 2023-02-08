@@ -14,8 +14,18 @@ module.exports = {
   rules: {
     'comma-dangle': 'off',
     '@typescript-eslint/comma-dangle': 'off',
-    semi: 'off',
     '@typescript-eslint/semi': 'off',
+    semi: 'off',
+    'key-spacing': [
+      'error',
+      {
+        align: {
+          beforeColon: true,
+          afterColon: true,
+          on: 'colon',
+        },
+      },
+    ],
   },
   settings: {
     react: {
