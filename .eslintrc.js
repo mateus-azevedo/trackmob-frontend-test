@@ -11,7 +11,11 @@ module.exports = {
     project: ['tsconfig.json'],
   },
   plugins: ['react'],
-  rules: {},
+  rules: {
+    'comma-dangle': 'off',
+    '@typescript-eslint/comma-dangle': 'off',
+    semi: 0,
+  },
   settings: {
     react: {
       version: 'detect',
