@@ -1,8 +1,8 @@
-import React from 'react';
-import {View, StyleSheet} from 'react-native';
+import React from 'react'
+import { View, StyleSheet } from 'react-native'
 
-import Title from '../atoms/texts/Title';
-import Subtitle from '../atoms/texts/Subtitle';
+import Title from '../atoms/texts/Title'
+import Subtitle from '../atoms/texts/Subtitle'
 
 const Header = () => {
   return (
@@ -10,8 +10,8 @@ const Header = () => {
       <Title>Teste Trackmob Frontend</Title>
       <Subtitle>Meus Produtos</Subtitle>
     </View>
-  );
-};
+  )
+}
 
 const styles = StyleSheet.create({
   wrapper: {
@@ -20,8 +20,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     paddingBottom: 10,
     borderBottomWidth: 2,
-    borderBottomColor: '#FEFEFE',
-  },
-});
+    borderBottomColor: '#FEFEFE'
+  }
+})
 
-export default Header;
+export default Header

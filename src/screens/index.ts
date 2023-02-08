@@ -1,4 +1,4 @@
-import EditProduct from './EditProduct';
-import Home from './Home';
+import EditProduct from './EditProduct'
+import Home from './Home'
 
-export {EditProduct, Home};
+export { EditProduct, Home }
