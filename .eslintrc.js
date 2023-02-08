@@ -14,7 +14,8 @@ module.exports = {
   rules: {
     'comma-dangle': 'off',
     '@typescript-eslint/comma-dangle': 'off',
-    semi: 0,
+    semi: 'off',
+    '@typescript-eslint/semi': 'off',
   },
   settings: {
     react: {
