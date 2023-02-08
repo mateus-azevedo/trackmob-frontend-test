@@ -16,7 +16,7 @@ module.exports = {
     '@typescript-eslint/comma-dangle': 'off',
     '@typescript-eslint/semi': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
-    semi: 'off',
+    semi: ['error', 'always'],
     'key-spacing': [
       'error',
       {

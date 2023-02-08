@@ -1,13 +1,13 @@
-import React from 'react'
-import { StyleSheet, ScrollView, View } from 'react-native'
+import React from 'react';
+import { StyleSheet, ScrollView, View } from 'react-native';
 
-import DeleteButton from '../atoms/buttons/DeleteButton'
-import EditButton from '../atoms/buttons/EditButton'
+import DeleteButton from '../atoms/buttons/DeleteButton';
+import EditButton from '../atoms/buttons/EditButton';
 
-import ProductCategory from '../atoms/texts/ProductCategory'
-import ProductName from '../atoms/texts/ProductName'
-import ProductPrice from '../atoms/texts/ProductPrice'
-import ProductTag from '../atoms/texts/ProductTag'
+import ProductCategory from '../atoms/texts/ProductCategory';
+import ProductName from '../atoms/texts/ProductName';
+import ProductPrice from '../atoms/texts/ProductPrice';
+import ProductTag from '../atoms/texts/ProductTag';
 
 interface ProductCardProps {
   name: string
@@ -34,22 +34,22 @@ const ProductCard = ({ category, name, price, tags }: ProductCardProps) => {
         <View style={styles.productFooter}>
           <ScrollView horizontal style={styles.productTags}>
             {tags.map(tag => {
-              return <ProductTag key={tag}>{`#${tag}`}</ProductTag>
+              return <ProductTag key={tag}>{`#${tag}`}</ProductTag>;
             })}
           </ScrollView>
 
           <View style={styles.buttonsWrapper}>
-            <DeleteButton onPress={() => { console.log('Delete item') }} />
+            <DeleteButton onPress={() => { console.log('Delete item'); }} />
 
             <View style={styles.buttonLeftMargin}>
-              <EditButton onPress={() => { console.log('Edit item') }} />
+              <EditButton onPress={() => { console.log('Edit item'); }} />
             </View>
           </View>
         </View>
       </View>
     </View>
-  )
-}
+  );
+};
 
 const styles = StyleSheet.create({
   productWrapper: {
@@ -85,6 +85,6 @@ const styles = StyleSheet.create({
   buttonLeftMargin: {
     marginLeft: 10
   }
-})
+});
 
-export default ProductCard
+export default ProductCard;

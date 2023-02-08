@@ -1,5 +1,5 @@
-import React from 'react'
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
+import React from 'react';
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 interface AddButtonProps {
   label?: string
@@ -14,8 +14,8 @@ const AddButton = ({ label = 'Button', onPress }: AddButtonProps) => {
         <Text style={styles.label}>{label}</Text>
       </View>
     </TouchableOpacity>
-  )
-}
+  );
+};
 
 const styles = StyleSheet.create({
   buttonContainer: {
@@ -34,6 +34,6 @@ const styles = StyleSheet.create({
   label: {
     fontSize: 20
   }
-})
+});
 
-export default AddButton
+export default AddButton;

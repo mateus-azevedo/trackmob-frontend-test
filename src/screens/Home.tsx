@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-import { Home } from '../components/organisms'
+import { Home } from '../components/organisms';
 
 const HomeScreen = () => {
-  return <Home />
-}
+  return <Home />;
+};
 
-export default HomeScreen
+export default HomeScreen;
