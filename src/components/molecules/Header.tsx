@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, StyleSheet} from 'react-native';
+import { View, StyleSheet } from 'react-native';
 
 import Title from '../atoms/texts/Title';
 import Subtitle from '../atoms/texts/Subtitle';
@@ -20,8 +20,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     paddingBottom: 10,
     borderBottomWidth: 2,
-    borderBottomColor: '#FEFEFE',
-  },
+    borderBottomColor: '#FEFEFE'
+  }
 });
 
 export default Header;

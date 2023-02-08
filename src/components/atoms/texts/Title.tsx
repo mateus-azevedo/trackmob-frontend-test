@@ -1,11 +1,11 @@
 import React from 'react';
-import {Text, StyleSheet} from 'react-native';
+import { Text, StyleSheet } from 'react-native';
 
 interface TitleProps {
-  children: string;
+  children: string
 }
 
-const Title = ({children}: TitleProps) => {
+const Title = ({ children }: TitleProps) => {
   return <Text style={styles.title}>{children}</Text>;
 };
 

@@ -1,12 +1,12 @@
 import React from 'react';
-import {StyleSheet, TouchableOpacity} from 'react-native';
+import { StyleSheet, TouchableOpacity } from 'react-native';
 import FontAwesomeIcon from 'react-native-vector-icons/FontAwesome';
 
 interface DeleteButtonProps {
-  onPress: () => void;
+  onPress: () => void
 }
 
-const DeleteButton = ({onPress}: DeleteButtonProps) => {
+const DeleteButton = ({ onPress }: DeleteButtonProps) => {
   return (
     <TouchableOpacity style={styles.buttonContainer} onPress={onPress}>
       <FontAwesomeIcon name="trash" size={25} />
@@ -20,8 +20,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: 'gray',
     paddingHorizontal: 4,
-    borderRadius: 5,
-  },
+    borderRadius: 5
+  }
 });
 
 export default DeleteButton;
