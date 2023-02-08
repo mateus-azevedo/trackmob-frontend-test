@@ -34,7 +34,7 @@ const ProductCard = ({ category, name, price, tags }: ProductCardProps) => {
         <View style={styles.productFooter}>
           <ScrollView horizontal style={styles.productTags}>
             {tags.map(tag => {
-              return <ProductTag>{`#${tag}`}</ProductTag>
+              return <ProductTag key={tag}>{`#${tag}`}</ProductTag>
             })}
           </ScrollView>
 
