@@ -9,32 +9,33 @@ import ProductName from '../atoms/texts/ProductName';
 import ProductPrice from '../atoms/texts/ProductPrice';
 import ProductTag from '../atoms/texts/ProductTag';
 
-const ProductCard = () => {
+type ProductCardProps = {
+  name: string;
+  price: number;
+  category: string;
+  tags: string[];
+};
+
+const ProductCard = ({category, name, price, tags}: ProductCardProps) => {
   return (
     <View style={styles.productWrapper}>
       <View style={styles.productImage} />
 
       <View style={styles.productContent}>
         <View style={styles.productHeader}>
-          <ProductName>Meu produto 1</ProductName>
-          <ProductPrice>R$ 100,00</ProductPrice>
+          <ProductName>{name}</ProductName>
+          <ProductPrice>{`R$ ${price}`}</ProductPrice>
         </View>
 
         <View style={styles.productBody}>
-          <ProductCategory>Categoria</ProductCategory>
+          <ProductCategory>{category}</ProductCategory>
         </View>
 
         <View style={styles.productFooter}>
           <ScrollView horizontal style={styles.productTags}>
-            <ProductTag>#tag1</ProductTag>
-            <ProductTag>#tag2</ProductTag>
-            <ProductTag>#tag3</ProductTag>
-            <ProductTag>#tag4</ProductTag>
-            <ProductTag>#tag5</ProductTag>
-            <ProductTag>#tag6</ProductTag>
-            <ProductTag>#tag7</ProductTag>
-            {/* <ProductTag>#tag8</ProductTag> */}
-            {/* <ProductTag>#tag9</ProductTag> */}
+            {tags.map(tag => {
+              return <ProductTag>{`#${tag}`}</ProductTag>;
+            })}
           </ScrollView>
 
           <View style={styles.buttonsWrapper}>

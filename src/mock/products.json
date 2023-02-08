@@ -1,0 +1,46 @@
+[
+  {
+    "id": "0",
+    "name": "Produto 1",
+    "price": 100.00,
+    "category": "Limpeza",
+    "tags": [
+      "Limpa Tudo",
+      "Sem Sujeiras",
+      "Mata Bonito"
+    ]
+  },
+  {
+    "id": "1",
+    "name": "Produto 2",
+    "price": 200.00,
+    "category": "Limpeza Regular",
+    "tags": [
+      "Limpa Nem Tudo",
+      "Deixa Sujeiras",
+      "Mata Feio"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Produto 3",
+    "price": 300.00,
+    "category": "Limpeza Profunda",
+    "tags": [
+      "Limpa Quase Tudo",
+      "Fica Alguma Sujeira",
+      "Cadê o Baiano?"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Produto 4",
+    "price": 400.00,
+    "category": "Limpeza",
+    "tags": [
+      "Passa o Rodo Legal",
+      "Zero Sujeiras",
+      "Não vai subir ninguém"
+    ]
+  }
+]
