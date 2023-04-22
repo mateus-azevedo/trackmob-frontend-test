@@ -10,10 +10,10 @@ import ProductPrice from '../atoms/texts/ProductPrice';
 import ProductTag from '../atoms/texts/ProductTag';
 
 interface ProductCardProps {
-  name: string
-  price: number
-  category: string
-  tags: string[]
+  name: string;
+  price: number;
+  category: string;
+  tags: string[];
 }
 
 const ProductCard = ({ category, name, price, tags }: ProductCardProps) => {

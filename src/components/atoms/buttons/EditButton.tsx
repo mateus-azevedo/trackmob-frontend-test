@@ -3,7 +3,7 @@ import { StyleSheet, TouchableOpacity } from 'react-native';
 import FeatherIcon from 'react-native-vector-icons/Feather';
 
 interface EditButtonProps {
-  onPress: () => void
+  onPress: () => void;
 }
 
 const EditButton = ({ onPress }: EditButtonProps) => {

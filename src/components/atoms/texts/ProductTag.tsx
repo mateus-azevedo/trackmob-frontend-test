@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, StyleSheet } from 'react-native';
 
 interface ProductTagProps {
-  children: string
+  children: string;
 }
 
 const ProductTag = ({ children }: ProductTagProps) => {

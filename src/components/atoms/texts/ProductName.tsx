@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, StyleSheet } from 'react-native';
 
 interface ProductNameProps {
-  children: string
+  children: string;
 }
 
 const ProductName = ({ children }: ProductNameProps) => {

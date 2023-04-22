@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, StyleSheet } from 'react-native';
 
 interface ProductPriceProps {
-  children: string
+  children: string;
 }
 
 const ProductPrice = ({ children }: ProductPriceProps) => {

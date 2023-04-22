@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, StyleSheet } from 'react-native';
 
 interface SubtitleProps {
-  children: string
+  children: string;
 }
 
 const Subtitle = ({ children }: SubtitleProps) => {

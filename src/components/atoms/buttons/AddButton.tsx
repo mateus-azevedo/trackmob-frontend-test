@@ -2,8 +2,8 @@ import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 interface AddButtonProps {
-  label?: string
-  onPress: () => void
+  label?: string;
+  onPress: () => void;
 }
 
 const AddButton = ({ label = 'Button', onPress }: AddButtonProps) => {
