@@ -31,6 +31,27 @@ module.exports = {
       },
     ],
     'linebreak-style': ['error', 'unix'],
+    '@typescript-eslint/member-delimiter-style': [
+      'error',
+      {
+        multiline: {
+          delimiter: 'comma',
+          requireLast: true,
+        },
+        singleline: {
+          delimiter: 'comma',
+          requireLast: true,
+        },
+        overrides: {
+          interface: {
+            multiline: {
+              delimiter: 'semi',
+              requireLast: true,
+            },
+          },
+        },
+      },
+    ],
   },
   settings: {
     react: {
